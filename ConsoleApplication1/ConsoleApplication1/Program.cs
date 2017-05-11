@@ -17,6 +17,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args) {
             var list = CommercialCustomers().Result;
+            Console.WriteLine("\n\nAll Test Completed");
             Console.ReadKey();
         }
 
